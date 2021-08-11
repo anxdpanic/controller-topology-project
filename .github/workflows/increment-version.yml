@@ -2,13 +2,13 @@ name: Increment version of updated languages
 
 on:
   push:
-    branches: [ master, main ]
+    branches: [ master, main, lang-test ]
     paths:
       - '**resource.language.**strings.po'
 
 jobs:
   default:
-    if: github.repository == 'kodi-game/controller-topology-project'
+    if: github.repository == 'anxdpanic/controller-topology-project'
     runs-on: ubuntu-latest
     name: Increment version of updated languages
 
