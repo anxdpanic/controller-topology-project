@@ -1,3 +1,4 @@
+# Kodi Media Center language file
 # Addon Name: 3DO Controller
 # Addon id: game.controller.3do
 # Addon Provider: Team Kodi
